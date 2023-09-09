@@ -47,9 +47,9 @@ logging.basicConfig(
 # Declare additional program constants
 
 DIVIDER = "=" * 70  # A string divider for cleaner output formatting
-CREATE_COMMAND = "python -m venv .venv"
-ACTIVATE_COMMAND_WINDOWS = ".venv\\Scripts\\activate"
-ACTIVATE_COMMAND_MAC_LINUX = "source .venv/bin/activate"
+CREATE_COMMAND = "python -m venv .venv2"
+ACTIVATE_COMMAND_WINDOWS = ".venv2\\Scripts\\activate"
+ACTIVATE_COMMAND_MAC_LINUX = "source .venv2/bin/activate"
 UPGRADE_COMMAND = "python -m pip install --upgrade pip"
 INSTALL_COMMAND = "python -m pip install"
 SUCCESS_MESSAGE = "All checks passed successfully! Your environment is set up correctly.\nIf it asks you to upgrade pip, please do so using the suggested command."
@@ -68,27 +68,27 @@ def get_activate_command():
 
 def check_for_dotvenv_folder():
     """Checks if the .venv folder exists."""
-    if os.path.exists(".venv"):
+    if os.path.exists(".venv2"):
         error_code = 0
         message = "YAY! .venv directory exists."
     else:
         error_code = 1
-        message = f"ERROR: Missing .venv directory. Create it (may take a while) using: {CREATE_COMMAND}"
+        message = f"ERROR: Missing .venv2 directory. Create it (may take a while) using: {CREATE_COMMAND}"
     return error_code, message
 
 
 def check_dotvenv_is_active():
-    """Checks if the .venv virtual environment is active."""
+    """Checks if the .venv2 virtual environment is active."""
     venv_path = os.environ.get("VIRTUAL_ENV")
 
-    if venv_path and ".venv" in venv_path:
+    if venv_path and ".venv2" in venv_path:
         error_code = 0
-        message = "YAY! The .venv virtual environment is active."
+        message = "YAY! The .venv2 virtual environment is active."
     else:
         ACTIVATE_COMMAND = get_activate_command()
         error_code = 1
         message = (
-            f"ERROR: Activate the .venv virtual environment using: {ACTIVATE_COMMAND}"
+            f"ERROR: Activate the .venv2 virtual environment using: {ACTIVATE_COMMAND}"
         )
     return error_code, message
 
@@ -136,7 +136,7 @@ def check_dependencies_installed_in_dotvenv():
             return (1, message)
 
     # Only reach this point if all dependencies are installed
-    message = "YAY! All dependencies are installed in the .venv."
+    message = "YAY! All dependencies are installed in the .venv2."
     return 0, message
 
 
