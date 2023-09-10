@@ -1,0 +1,8 @@
+2023-09-09 19:11:56,147.v2_listen_for_messages.INFO ==================================================
+2023-09-09 19:11:56,147.v2_listen_for_messages.INFO Today is 2023-09-09 at 07:11 PM
+2023-09-09 19:11:56,148.v2_listen_for_messages.INFO Running on: nt Windows 10
+2023-09-09 19:11:56,149.v2_listen_for_messages.INFO Python version:  3.10.11
+2023-09-09 19:11:56,149.v2_listen_for_messages.INFO Python path: C:\Users\garre\.venv2
+2023-09-09 19:11:56,149.v2_listen_for_messages.INFO Working dir: C:\Users\garre\.venv2\Mod_3\streaming-03-rabbitmq
+2023-09-09 19:11:56,150.v2_listen_for_messages.INFO ==================================================
+2023-09-09 19:11:56,162.v2_listen_for_messages.INFO  [*] Waiting for messages. To exit press CTRL+C
