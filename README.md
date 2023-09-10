@@ -85,6 +85,7 @@ Each of the version 2 programs include an error as well.
 1. How many hits did you get? 
 1. Learn and understand this common Python idiom.
 
+## Multiple Terminals
 V2
 ![Alt text](2Terminal_v2_SendRecieveGarrettKopp.jpg)
 

@@ -6,3 +6,9 @@
 2023-09-09 19:11:56,149.v2_listen_for_messages.INFO Working dir: C:\Users\garre\.venv2\Mod_3\streaming-03-rabbitmq
 2023-09-09 19:11:56,150.v2_listen_for_messages.INFO ==================================================
 2023-09-09 19:11:56,162.v2_listen_for_messages.INFO  [*] Waiting for messages. To exit press CTRL+C
+2023-09-09 19:13:44,358.v2_listen_for_messages.INFO Received: Hello Everyone!
+2023-09-09 19:14:03,273.v2_listen_for_messages.INFO Received: Whats Up!
+2023-09-09 19:15:12,539.v2_listen_for_messages.INFO Received: This is Garrett Kopps computer and its 9/9/2023!
+2023-09-09 19:18:33,984.v2_listen_for_messages.INFO Received: Hello!
+4:37,884.v2_listen_for_messages.INFO Received: This is Garrett Kopps computer and its 9/9/2023!
+2023-09-09 19:18:20,810.v2_listen_for_messages.INFO Received: This is Garrett Kopps computer and its 9/9/2023!
