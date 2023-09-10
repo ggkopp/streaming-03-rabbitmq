@@ -74,7 +74,7 @@ Each of the version 2 programs include an error as well.
 1. Modify the docstrings on all your files. Done
 1. Include your name and the date. Done
 1. Imports always go at the top, just after the file docstring. Done
-1. Imports should be one per line - why?
+1. Imports should be one per line - why? because the logger used in the code is configured to log messages in a single-line format. Specifically using a custom logger (logger) created using the util_logger module.
 1. Then, define your functions.
 1. Functions are reusable logic blocks.
 1. Everything the function needs comes in through the arguments.
@@ -82,7 +82,7 @@ Each of the version 2 programs include an error as well.
 1. When we open a connection, we should close the connection. 
 1. Which of the 4 files will always close() the connection?
 1. Search GitHub for if __name__ == "__main__":
-1. How many hits did you get? 
+1. How many hits did you get? I got at least 5 hits
 1. Learn and understand this common Python idiom.
 
 ## Multiple Terminals
